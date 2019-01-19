@@ -1,12 +1,12 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { DefaultButton } from "office-ui-fabric-react/lib/Button";
+import { PrimaryButton } from "office-ui-fabric-react/lib/Button";
 
 // import { loadTheme } from "office-ui-fabric-react";
 
 // loadTheme({
 //   palette: {
-//     themePrimary: "#0078d4",
+//     themePrimary: "#00cccc",
 //     themeLighterAlt: "#eff6fc",
 //     themeLighter: "#deecf9",
 //     themeLight: "#c7e0f4",
@@ -32,6 +32,6 @@ import { DefaultButton } from "office-ui-fabric-react/lib/Button";
 // });
 
 ReactDOM.render(
-  <DefaultButton onClick={e => alert("clicked")}>I am a button.</DefaultButton>,
+  <PrimaryButton onClick={e => alert("clicked")}>I am a button.</PrimaryButton>,
   document.getElementById("app")
 );
